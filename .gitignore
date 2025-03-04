@@ -1,0 +1,34 @@
+# Ignore backup directories
+mac_migration_backup_*/
+*backup*/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore user-specific files that might contain sensitive information
+*.plist
+*.key
+id_*
+*.pem
+.ssh/
+
+# Ignore any test or example output
+example_output/
+test_output/
+
+# Ignore any personal configuration files that might be created during testing
+personal_config.sh
+my_settings.sh
